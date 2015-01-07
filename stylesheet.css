@@ -1,0 +1,199 @@
+@font-face{
+	font-family: basic;
+	src: url(fonts/basictitlefont.ttf); 
+}
+@font-face{
+	font-family: codeLight;
+	src: url(fonts/codeLight.otf); 
+}
+@font-face{
+	font-family: jaapokki;
+	src: url(fonts/jaapokki2.otf); 
+}
+
+
+html { 
+  background: url(photos/group.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+div {
+	align="center";
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+}
+h1 {
+	color: white;
+	font-family: 'jaapokki', Arial, serif; 
+	text-align:center;
+	font-size: 6em;
+   	left: 0;
+   	width: 100%;
+   	margin: 0;
+   	position: absolute;
+   margin-top: 250px;
+   z-index: 50;
+   opacity: 0.7;
+}
+h3{
+	color: white;
+	font-family: 'codeLight'; 
+	font-size:1.3em;
+	text-align:center;
+	z-index: 50;
+	line-height: 0.3em;
+}
+h3.logo{
+	font-size: 2em;
+   	left: 0;
+   	width: 100%;
+   	margin: 0;
+   	position: absolute;
+   	margin-top: 280px;
+   	z-index: 50;
+   	opacity: 0.8;
+}
+h2 {
+	color: white;
+	font-family: 'basic'; 
+	text-align:center;
+	font-size: 1em;
+	line-height: 0.3em;
+}
+
+h4{
+	text-align:center;
+	padding: 45px 0px 25px 0px; 
+	margin: 0px;
+	line-height: 0em; 
+	font-size:2.2em;  
+	opacity:0.8; 
+	font-family:'jaapokki'; 
+	color: white;
+}
+h5{
+	color: white;
+	font-family: 'codeLight'; 
+	font-size:1.8em;
+	text-align:center;
+	z-index: 50;
+	line-height: 0em;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+    
+img.logo{
+    opacity:0.8;
+    width: 450px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+table{
+	border-collapse:collapse;
+	width:50%;
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: -10px;
+	height: 60px;
+	position: fixed;
+	align="center";
+	z-index: 100;
+	background: black;
+	opacity: 0.8;
+
+}
+div.header{
+	
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	margin: 0px;
+	padding: -10px;
+}
+div.footer{
+	z-index: 100;
+	background: black;
+	opacity: 0.8;
+	width: 100%;
+	position: absolute;
+	left:0px;
+}
+div.sidebar{
+	z-index: 100;
+	background: black;
+	opacity: 0.8;
+	width: 120px;
+	height: 110%;
+	position: fixed;
+	left:0px;
+	padding: 50px;
+	margin-top:-30px;
+}
+table.footer{
+	border-collapse:collapse;
+	width:150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	position: relative;
+	opacity: 0.8;
+	align="center";
+}
+td{
+	text-align:center;
+}
+a{
+	color: white; 
+	text-decoration: none;
+	font-family: 'basic', Arial, serif; 
+	text-align:center;
+	font-size: 1.4em;
+	padding-top: 15px;
+	padding-bottom: -20px;
+	line-height: 1em;
+}
+a:hover{color: red;}
+
+a.block{color:white; text-decoration:none;}
+a.block:hover{color:black;}
+
+div.box{
+	background-color: #ed1e24;
+	align="center";
+	margin: 10px;
+	padding: 10px;
+	line-height: 1em;
+	width: 785px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.8;
+}
+div.headerbox{
+	display: block;
+	align="center";
+	width: 785px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	color: white;
+	font-size:1.4em; 
+	font-family:'basic'; 
+	line-height: 1.5em; 
+	text-align: left;
+}
